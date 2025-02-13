@@ -69,15 +69,15 @@ export default function Page() {
   const getRejectText = () => {
     const messages = [
       "No",
-      "Are you sure, my love?",
-      "But I adore you...",
-      "What if I promise endless cuddles?",
+      "Are you sure...",
       "I'll cook your favorite meal!",
-      "You're breaking my heart here...",
-      "I might just have to serenade you now.",
-      "This is your last chance, beautiful.",
-      "I’ll wait forever if I have to.",
-      "Alright, but you’ll always have my heart.",
+      "Eh you want to fight ah",
+      "What if I give u cuddles?",
+      "pls.",
+      "Last chance already ah",
+      "I’ll still wait for u to say yes...",
+      "But I love u...",
+      "Alright, but you’ll always have my heart...",
     ];
 
     return messages[Math.min(rejectCount, messages.length - 1)];
